@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="data">
+        <p class="para1">Un animal tres <span style='color:rgb(12, 226, 12)'>Venimeux</span> qui aime l'humidité et se trouve souvent dans les zones d'afriques orientales, il est aussi reputer pour porter le nom d'un <strong> language de programmation</strong> tres utiliser pour la machine learning </p>
+        <p class="para2" > Rangeur blanc avec <span style='color: yellow;' > des dentes pointus</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe quia maiores accusamus, dolore doloribus.</p>
+        <p class="para3" > Cette animal c'est <span style='color: red;' > le roi de la jungle  </span> , respecter par toutes les animaux Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam non impedit odit molestias </p>
+        <p class="para4" > Cette animal est de couleur <span style='color: brown; font-size: 15px;' > Noir</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates officiis placeat asperiores explicabo nam  </p>
+    </div>
+    <script>
+        var para = document.querySelectorAll(".data p");
+        for (let i = 0; i < para.length; i++) {
+            localStorage.setItem("desc"+i,para[i].innerHTML); // atao mifanaraka @ indice nle tableau rehefa maka an'azy
+        }
+    </script>
+</body>
+</html>

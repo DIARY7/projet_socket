@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/Exo5.css">
+    
+</head>
+<body>
+   
+    <select name="" id="liste">
+
+    </select>
+    <input type="button" id="btn" value="Valider" >
+
+    <div class="img container">
+        <div class="row">
+        
+
+        </div> 
+    </div>
+
+    <div class="light_box">
+        <div class="img_light">
+            
+            <span class="glyphicon glyphicon glyphicon-remove croix" aria-hidden="true"></span>
+            <img src="animal/phn11.jpg" class="sary" alt="">
+            <div class="btnLight" style="display: flex; justify-content: space-between; " >
+
+                <input type="button" class="btn btn-primary previous" style="background-color: #263857;" value="Precedent" >
+                <input type="button" class="btn btn-primary next" value="Suivant" style="background-color: #538797;" >
+                
+    
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+  <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+  </button> -->
+  
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div> -->
+  <!-- </div> --> 
+
+
+    <!-- <button type="button" class="btn btn-default btn1" data-delay ='{"show":"1000" , "hide":"300" }'  data-toggle="popover" data-placement="bottom" title="1212"  data-trigger="hover" >Tooltip on top</button>
+    <p class="forBtn1" style="display: none;" >
+        Lorem <span style="color: brown;"> ipsum dolor </span>  sit amet consectetur adipisicing elit. Ullam animi alias at! Consequatur libero, repudiandae eligendi exercitationem excepturi itaque quod, assumenda modi, et sed possimus 
+        accusamus ratione culpa nobis doloremque.
+    </p>
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
+
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button> -->
+    <!-- <img src = "animal/phn17.jpg" class="saryListe" data-delay ='{"show":"1000" , "hide":"300" }'  data-toggle="popover" data-placement="right"  data-trigger="hover" title="Blabla" data-content='Diary le bg' >  -->
+
+    <script src="assets/bootstrap-3.3.6-dist/js/jquery.min.js"></script>
+    <script src="assets/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover({html:true});
+
+        });
+
+        // $('#myModal').on('shown.bs.modal', function () {
+        //     $('#myInput').focus()
+        // })
+
+        // var btn1 = document.querySelector(".btn1");
+        // //btn1.title = document.querySelector(".forBtn1").textContent;
+        // btn1.setAttribute('data-content',document.querySelector(".forBtn1").innerHTML); 
+
+    </script>
+    <script src="assets/Exo5.js"></script>
+    
+</body>
+</html>
